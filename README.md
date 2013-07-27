@@ -10,7 +10,7 @@ The code will compare two strings of either tags or free text (or a mixture) and
 
 The following rules are applied
 
-a. Longer word matches sore logarithmically higher than smaller matches
+a. Longer word matches score logarithmically higher than smaller matches
 b. The greater the distance between two compare words, the smaller the score multiplier (and therefore the score will be)
 c. Comparisons between words that are not close enough to meet the threshold score which determines a likely match are not scored
 
@@ -19,14 +19,9 @@ To use this code you will need to download the JS version of google's diff_match
 
 https://code.google.com/p/google-diff-match-patch/downloads/list
 
-To create a working example in your browser add the following script tags to your HTML page
+To create a working example load the diff_match_patch.js and jscompare.js script files and then call the function per the example below... 
 
-<script type='text/javascript' src='diff_match_patch.js'></script>
-<script type='text/javascript' src='jscompare.js'></script>
-<script>
-/* Working example */
-document.write(jscompare.contentPrefs.CalculateCumulativeMatchScore(jscompare.contentPrefs.analyseContent('My primary text', 'My secondary text')));
-</script>
+jscompare.contentPrefs.CalculateCumulativeMatchScore(jscompare.contentPrefs.analyseContent('My primary text', 'My secondary text'));
 
 
 THINGS TO FIX
