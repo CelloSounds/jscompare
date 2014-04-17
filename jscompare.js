@@ -24,11 +24,11 @@ jscompare.compareWordsConf = {
 jscompare.analyseContent = function analyseContent(primaryString, secondaryString) {
 
 	/* Attributes */
-	var primaryWordList = primaryString.split(' ')
-	secondaryWordList = secondaryString.split(' ')
-	primaryPhrasePermutations = {}
-	secondaryPhrasePermutations = {}
-	jscompare.matchScore = null
+	var primaryWordList = primaryString.split(' ');
+	secondaryWordList = secondaryString.split(' ');
+	primaryPhrasePermutations = {};
+	secondaryPhrasePermutations = {};
+	jscompare.matchScore = null;
 	jscompare.matchesList = {};
 
 	/* Methods */
