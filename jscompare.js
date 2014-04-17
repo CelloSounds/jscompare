@@ -1,8 +1,8 @@
 /*
- * jscompare 1.04
+ * jscompare 1.05
  * Author: Graham Ellsmore (ellsmo.re)
  * Website: https://github.com/CelloSounds/jscompare
- * Date: 11-Jan-14
+ * Date: 17-Apr-14
  */
 
 /*Global abatement */
